@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lo mejor de tener un mustang </title>
+    <style>
+        
+            body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("./IMG_3062.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            color: white;
+        }
+
+        .card {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+}
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            background-color: #ff4d6d;
+            color:white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #ff1e4d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Lo mejor de tener un mustang</h1>
+        <p>
+            💥 El sonido
+Arranca y el V8 habla por ti. Grave, brutal, adictivo. Aunque vayas despacio, se siente poderoso.
+
+🚀 Potencia de verdad
+Empuja desde abajo sin pedir permiso. No necesitas ir a fondo para sonreír… pero cuando lo haces, se pone salvaje.
+
+😈 Carácter
+No es fino, es rudo. No intenta ser europeo ni silencioso. Es músculo americano puro.
+
+🛞 Sensación al manejar
+Sientes el torque en el cuerpo, el volante vivo, el carro queriendo soltarse si le pisas de más. Te mantiene alerta.
+
+👀 Respeto en la calle
+Un Mustang V8 impone. La gente sabe lo que es, y lo reconoce al instante.
+            
+        </p>
+        <button onclick="mostrarMensaje()">mostrar mas 💀</button>
+
+<div id="sorpresa" class="oculto">
+    <p>Lo mejor de tener un Mustang…
+es el día que lo vendes.
+
+Porque ese día dejas de manejar un carro que vive de recuerdos
+y te compras un Camaro,
+un carro de verdad.
+
+El Mustang presume historia.
+El Camaro presume resultados.
+
+Uno hace ruido para verse rápido.
+El otro es rápido aunque no haga ruido.
+
+Cuando el camino se pone serio,
+cuando hay curvas, agarre, control y huevos…
+el Mustang duda.
+El Camaro aprieta.
+
+El Mustang es para posar.
+El Camaro es para manejar.
+
+Y no es odio, es realidad:
+el Mustang quiere atención,
+el Camaro quiere ganar. </p>
+
+    <img src="84bc679a-a285-4414-8811-6ff78faeaa63.jpeg"
+         alt="."
+         width="250"
+         style="border-radius:15px; margin-top:15px;">
+</div>
+
+<style>
+.oculto {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s ease;
+}
+
+.mostrar {
+    opacity: 1;
+    transform: translateY(0);
+}
+</style>
+
+<script>
+function mostrarMensaje() {
+    document.getElementById("sorpresa").classList.add("mostrar");
+}
+</script>
+
+</body>
+</html>
